@@ -1,3 +1,3 @@
 # react-avanzado ⚛️
 
-Petgram gy platzi
+Petgram by platzi
