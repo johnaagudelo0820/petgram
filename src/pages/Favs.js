@@ -1,9 +1,12 @@
 import React from 'react'
 
 import { GetFavorites } from '../container/GetFavorites'
-export const Favs = () => (
-  <>
-    <h2>Favs</h2>
+import { Layout } from '../components/Layout'
+
+const Favs = () => (
+  <Layout title='Description' subtitile='Aqui puede encontrar tus mascotas favoritas'>
     <GetFavorites />
-  </>
+  </Layout>
 )
+
+export default Favs
